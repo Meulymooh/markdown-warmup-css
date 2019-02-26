@@ -1,9 +1,3 @@
- <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head> 
-
-<head>
-	<style>
 body {
 text-align: center;
 background-color: #fcfdff;
@@ -85,7 +79,7 @@ ul li {
 }
 
 .text {
-column-count: 2;
+column-count: 1;
 column-gap: 10px;
 column-rule: 1px dashed #45657d;
 background-color: white;
@@ -97,6 +91,7 @@ padding-right: 0px;
 padding-bottom: 40px;
 column-span: all;
 width: 90%;
+overflow-y: scroll;
 margin:auto;
 position:relative;
 } 
@@ -110,8 +105,3 @@ position:relative;
 .expando:target {
   display: block;
 }
-
-
-</style>
-</head>
-
