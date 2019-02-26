@@ -81,7 +81,6 @@ ul li {
 .text {
 column-count: 1;
 column-gap: 10px;
-column-rule: 1px dashed #45657d;
 background-color: white;
 border: 1px solid #45657d;
 border-width:1px;
